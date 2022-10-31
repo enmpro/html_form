@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+        <link href="main.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Enter information</legend>
+                <label for="fname">First name</label>
+                <br>
+                <input type="text" id="fname" name="fname" required>
+                <br>
+                <label for="lname">Last name</label>
+                <br>
+                <input type="text" id="lname" name="lname" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <input type="submit" value="Submit">
+            </fieldset>
+            <fieldset>
+                <label for="selection">Drop down choose</label>
+                <select id="selection" name="selection">
+                    <option value="option-1">Option 1</option>
+                    <option value="option-2">Option 2</option>
+                    <option value="option-3">Option 3</option>
+                </select>
+                <label for="txt">Text area</label>
+                <textarea name="txt" placeholder="Enter text here..." rows="23" cols="3"></textarea>
+            </fieldset>
+            
+        </form>
+    </body>
+</html>

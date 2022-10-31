@@ -1,0 +1,13 @@
+input[type=text], input[type=email] select, textarea {
+    margin: auto;
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+}
+
+label, select {
+    display: block;
+    margin-bottom: 1em;
+}
